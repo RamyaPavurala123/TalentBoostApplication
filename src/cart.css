@@ -1,0 +1,110 @@
+/* Container for the entire cart page */
+.cartContainer {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+  }
+  
+  /* Title for the cart page */
+  .cartTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* Total price section */
+  .totalPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  /* Container for the product items in the cart */
+  .productContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between each product item */
+  }
+  
+  /* Style for each cart item */
+  .cartItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the product image */
+  .cartItem img {
+    max-width: 100px; /* Reduce the max width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px;
+    border-radius: 5px; /* Optional: add rounded corners to the image */
+  }
+  
+  /* Container for the details of the cart item */
+  .cartItemDetails {
+    flex: 1; /* Allow details to take up remaining space */
+  }
+  
+  /* Style for the title of the cart item */
+  .cartItemTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the price of the cart item */
+  .cartItemPrice {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the quantity of the cart item */
+  .cartItemQuantity {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the remove button */
+  .removeButton {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .removeButton:hover {
+    background-color: #e60000;
+  }
+  
+  /* Style for the empty cart message */
+  .emptyCartMessage {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+  }
+  /* Ensure the cart container handles overflow */
+.cartContainer {
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Style for the product container to prevent overflow */
+  .productContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between items */
+  }
+  

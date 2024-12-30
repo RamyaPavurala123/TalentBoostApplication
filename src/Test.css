@@ -1,0 +1,5 @@
+.test-container {
+    background-color: transparent; /* Ensure no background color */
+    border: none; /* Ensure no border */
+  }
+  

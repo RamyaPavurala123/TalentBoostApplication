@@ -1,0 +1,43 @@
+.top-offers-page {
+    padding: 20px;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 1.2em;
+    color: #ff0000; /* Red for errors */
+  }
+  
+  .products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .product-details {
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .product-price, .product-discount-price, .product-rating, .product-description, .product-available-offers {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,74 @@
+/* Style for each cart item container */
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #1f1f1f; /* Dark background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Space between items */
+    width: 100%; /* Ensure it fits within container */
+    box-sizing: border-box;
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  /* Style for the product image */
+  .cart-item-image {
+    width: 100px; /* Adjust width */
+    height: 100px; /* Adjust height */
+    object-fit: cover; /* Ensures the image fits within the dimensions */
+    margin-right: 15px; /* Space between image and text */
+    border-radius: 5px; /* Rounded corners for image */
+    border: 2px solid #2ecc71; /* Green border around image */
+  }
+  
+  /* Style for the details section */
+  .cart-item-details {
+    flex: 1; /* Allows the details to take up remaining space */
+  }
+  
+  /* Title of the product */
+  .cart-item-name {
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    margin: 0;
+    color: #2ecc71; /* Green color for title */
+  }
+  
+  /* Description of the product */
+  .cart-item-description {
+    font-size: 14px; /* Adjust font size */
+    margin: 5px 0; /* Space around description */
+    color: #b0b0b0; /* Lighter gray color for description */
+  }
+  
+  /* Price of the product */
+  .cart-item-price {
+    font-size: 16px; /* Adjust font size */
+    color: #e0e0e0; /* Light color for price */
+    margin: 5px 0;
+  }
+  
+  /* Delivery date of the product */
+  .cart-item-delivery {
+    font-size: 14px; /* Adjust font size */
+    color: #7f8c8d; /* Gray color for delivery date */
+    margin-top: 5px; /* Space above delivery date */
+  }
+  
+  /* Style for the remove button */
+  .removeButton {
+    background-color: #e74c3c; /* Red color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .removeButton:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  

@@ -1,0 +1,116 @@
+/* Ensure the page takes the full viewport height */
+.courses-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #121212; /* Dark background for the page */
+  color: #e0e0e0; /* Light text color for contrast */
+}
+
+/* Header styles */
+.courses-header {
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #004d00, #003300); /* Dark green gradient background */
+  color: #e0e0e0; /* Light text color */
+  border-bottom: 4px solid #00e676; /* Bright green border for emphasis */
+}
+
+.courses-header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  font-weight: bold; /* Bold heading for better emphasis */
+}
+
+.courses-header p {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  font-weight: 300; /* Lighter weight for the description */
+}
+
+/* Course list styles */
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+/* Course card styles */
+.course-card {
+  background: #1f1f1f; /* Dark grey background for cards */
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Enhanced shadow for depth */
+  width: calc(25% - 20px); /* Four cards per row, adjust spacing */
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effects */
+}
+
+.course-card:hover {
+  transform: translateY(-5px); /* Subtle lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Enhanced shadow on hover */
+}
+
+.course-content {
+  padding: 20px;
+}
+
+.course-content h2 {
+  font-size: 1.6rem;
+  margin-top: 0;
+  color: #00e676; /* Bright green for headings */
+  font-weight: bold; /* Bold headings for better emphasis */
+}
+
+.course-content p {
+  font-size: 1rem;
+  color: #cfcfcf; /* Lighter grey text for paragraphs */
+}
+
+.course-content ul {
+  padding-left: 20px;
+  list-style-type: disc; /* Disc bullets */
+  color: #cfcfcf; /* Lighter grey text for list items */
+}
+
+.course-content ul li {
+  margin-bottom: 10px;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 15px;
+  color: #00e676; /* Bright green link color */
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #00e676; /* Underline effect */
+  padding-bottom: 5px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.learn-more:hover {
+  text-decoration: none;
+  background: rgba(0, 230, 118, 0.2); /* Light green background on hover */
+  border-radius: 4px;
+  color: #fff; /* White text on hover for better contrast */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .course-card {
+    width: calc(50% - 20px); /* Two cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .course-card {
+    width: calc(100% - 20px); /* One card per row on very small screens */
+  }
+}
+

@@ -1,0 +1,68 @@
+/* InterviewQuestions.css */
+.interview-questions {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  width: 100%; /* Full width of the viewport */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.interview-questions h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #00ff00; /* Green text for the header */
+}
+
+.question-category {
+  margin-bottom: 30px;
+}
+
+.question-category h2 {
+  font-size: 1.5em;
+  color: #00ff00; /* Green text for category headers */
+  margin-bottom: 10px;
+}
+
+.questions-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.question-item {
+  padding: 10px;
+  border-bottom: 1px solid #333; /* Dark gray border for separation */
+  font-size: 1.1em;
+  color: #ccc; /* Light gray text for questions */
+  position: relative; /* To position the answer absolutely */
+  cursor: pointer; /* Pointer cursor on click */
+}
+
+.question-item:hover {
+  background-color: #333; /* Darker background on hover */
+}
+
+.question-number {
+  font-weight: bold;
+  color: #00ff00; /* Green text for question numbers */
+}
+
+.question-text {
+  margin: 5px 0; /* Space between number and text */
+}
+
+.answer {
+  display: block; /* Show the answer by default if clicked */
+  position: relative;
+  background-color: #222; /* Darker background for the answer */
+  color: #fff; /* White text for the answer */
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #333; /* Dark gray border for answer */
+  box-sizing: border-box; /* Include padding in width calculation */
+  margin-top: 5px; /* Space between question and answer */
+}
+
+.answer strong {
+  color: #00ff00; /* Green text for the 'Ans:' prefix */
+}
