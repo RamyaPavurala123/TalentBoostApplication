@@ -93,6 +93,8 @@
 import React, { useState } from 'react';
 import './Practice.css';
 
+
+
 const questions = [
   {
     id: 1,

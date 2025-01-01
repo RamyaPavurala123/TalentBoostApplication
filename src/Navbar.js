@@ -7,6 +7,8 @@ import SideNav from './SideNav';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Navbar.css';
 
+
+
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);

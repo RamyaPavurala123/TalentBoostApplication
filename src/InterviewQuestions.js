@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './InterviewQuestions.css';
 
+
+
 const InterviewQuestions = () => {
   const [clickedIndex, setClickedIndex] = useState(null);
 

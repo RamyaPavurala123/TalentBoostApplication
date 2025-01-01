@@ -3,6 +3,8 @@ import { useState } from 'react';
 import './Otp.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import React from 'react';
+
 
 function Otp() {
   const [otp1, setOtp1] = useState(); 

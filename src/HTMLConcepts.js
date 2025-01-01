@@ -120,6 +120,8 @@
 
 import { useState } from 'react';
 import './HTMLConcepts.css';
+import React from 'react';
+
 
 const HTMLConcepts = () => {
   const quiz = [

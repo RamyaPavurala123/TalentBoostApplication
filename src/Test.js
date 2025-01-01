@@ -1,5 +1,7 @@
 import React from 'react';
 import './Test.css'; // Ensure this CSS is minimal
+import React from 'react';
+
 
 const Test = () => {
   return (

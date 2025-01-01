@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './ForgotPasswordModal.css'; 
 
+
+
 function ForgotPasswordModal() {
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');

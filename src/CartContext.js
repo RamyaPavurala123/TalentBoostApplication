@@ -16,9 +16,4 @@
     );
   };
 
-// import { CartContext} from 'react';
-
-// export const CartContext = CartContext();
-
-// export default CartContext;
 

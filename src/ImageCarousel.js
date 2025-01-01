@@ -1,6 +1,7 @@
 // src/ImageCarousel.js
 import React, { useState } from 'react';
 import './ImageCarousel.css'; // Add your CSS for styling
+import React from 'react';
 
 const ImageCarousel = () => {
   // Define your images array inside the component

@@ -1,31 +1,5 @@
-// import React from 'react';
-// import './TopOffersPage.css'; // Create this CSS file for styling
 
-// const TopOffersPage = () => {
-//   // Dummy data for top offers; replace this with actual data or API calls
-//   const products = [
-//     { id: 1, name: 'Product 1', price: '$20', image: 'mobiles.png' },
-//     { id: 2, name: 'Product 2', price: '$30', image: 'kitchen.png' },
-//     { id: 3, name: 'Product 3', price: '$40', image: 'electornics.png' },
-//   ];
-
-//   return (
-//     <div className="top-offers-page">
-//       <h1>Top Offers</h1>
-//       <div className="products-grid">
-//         {products.map(product => (
-//           <div key={product.id} className="product-card">
-//             <img src={product.image} alt={product.name} />
-//             <h2>{product.name}</h2>
-//             <p>{product.price}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default TopOffersPage;
+import React from 'react';
 
 import React, { useEffect, useState } from 'react';
 import './TopOffersPage.css';
